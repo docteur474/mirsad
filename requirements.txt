@@ -1,0 +1,7 @@
+# MIRSAD v2 — التبعيات
+ccxt>=4.4.0            # Binance Spot عبر REST + اختيارياً ccxt.pro للـ WebSocket
+aiohttp>=3.9.0         # طلبات Arkham / WhaleAlert / CryptoPanic / Telegram
+anthropic>=0.39.0      # وكيل المعنويات (بدّل الموفر عبر SENTIMENT_MODEL في .env)
+aiosqlite>=0.20.0      # تخزين الإشارات والتتبع على SQLite بلا حظر للحلقة
+python-dotenv>=1.0.1   # قراءة الأسرار من .env — لا أسرار في الكود
+pytest>=8.0.0          # اختبارات المخاطر والإجماع والتتبع
